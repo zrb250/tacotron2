@@ -1,4 +1,5 @@
 import matplotlib
+matplotlib.use('agg')
 import matplotlib.pylab as plt
 import sys
 sys.path.append('waveglow/')
